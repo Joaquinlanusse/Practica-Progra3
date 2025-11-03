@@ -3,6 +3,10 @@ import { StyleSheet, Text, View } from 'react-native';
 import Login from './src/Screens/Login';
 import Register from './src/Screens/Register';
 import HomeMenu from './src/Components/HomeMenu'
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
